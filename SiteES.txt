@@ -1,0 +1,77 @@
+<p>Qual a importância da Engenharia de Software?<br>
+    ? O desenvolvimento de um software envolve processos
+    muitos complexos. A engenharia de software
+    estabelece um modelo para se construir um programa.<br>
+    ? A programação é apenas uma atividade complexa, mas
+    é apenas uma etapa do processo que envolve
+    principalmente o programador. A engenharia de
+    software envolve diversos intervenientes que vão desde<br>
+    o analista de sistemas até o cliente usuário final.
+    ? Alguns programas muito simples são feitos por apenas
+    um indivíduo sem precisar utilizar uma técnica
+    estabelecida. A maioria dos softwares nas empresas são
+    complexos e necessitam de técnicas de
+    desenvolvimento em equipe que envolvem várias
+    pessoas.<br>
+    </p>
+
+Engenharia de Software designa o conjunto de estudos, mecanismos e técnicas que visam produzir software computacional de forma metódica e disciplinada. Diferencia-se, assim, da programação comum pelo foco exigente da qualidade do produto final e da sistematização dos processos que levam à geração e manutenção de um software de qualidade. Desta forma, um Engenheiro de Software é um profissional com a capacidade de compreender o problema a ser resolvido por um software e, utilizando de recursos de engenharia, determinar o melhor método de desenvolvimento de um software específico.
+
+Definições iniciais
+
+Chamamos de software a um programa computacional, isto é, um conjunto de instruções em uma linguagem de computador, além dos arquivos de configuração, documentação e outros elementos associados a este programa. Chamamos de sistema à integração de todos estes recursos com os componentes de hardware, humanos e organizacionais visando uma finalidade específica. Para atingir este objetivo, osoftware deve ser de alta qualidade: busca-se isto através da aplicação de um conjunto de atividades de Engenharia, no que é conhecido como Processo de Software. O Processo de Software envolve, assim, a especificação, o desenvolvimento, a validação e a evolução de umsoftware de qualidade. Isto é realizado com técnicas e ferramentas que visam minimizar os possíveis riscos e o custo envolvido na produção de software, tanto de forma isolada como quando está integrado com a estrutura de uma organização, formando assim um sistema. Este último tipo de análise é particularmente importante, pois há características emergentes que surgem apenas devido a esta combinação e que não podem ser detectadas pela análise individual dos componentes do sistema.
+
+ 
+
+Processos de software
+
+Chama-se Processo de Software ao conjunto de atividades que tem como objetivo desenvolver um software. Cada organização, conforme a sua conveniência, cria e organiza estas atividades de modo a atingir as finalidades inicialmente propostas. Pesquisadores de Engenharia deSoftware buscaram, historicamente, modelar esta organização em modelos genéricos de processo. Isto, porque, apesar de existirem muitos modelos diferenciados,em geral, todos os modelos possuem algumas atividades consideradas fundamentais:
+
+Especificação: define o problema inicial, como software deve ser, sua viabilidade e os requisitos a serem cumpridos;
+Desenvolvimento: é a criação do programa de computador propriamente dito, convertendo-se a especificação anteriormente desenvolvida em um sistema executável;
+Validação: abrange os testes que devem ser feitos com o software com o objetivo de detectar se cumpre os objetivos inicialmente propostos(conformidade);
+Evolução: abrange a manutenção e possíveis modificações que o software deve suportar para atender novas necessidades que venham a surgir.
+Os principais modelos propostos pelos pesquisadores até hoje são: o modelo cascata, modelo evolucionário . Logicamente, não há modelo pior ou melhor, mas há modelos convenientes ou inconvenientes de acordo com a organização.
+
+Modelo cascata
+
+O modelo em cascata ordena os processos de desenvolvimento de sistema em uma forma sequêncial de forma que uma fase do projeto de desenvolvimento do sistema só inicia quando uma fase anterior foi finalizada. É o modelo básico da maior parte das organizações que desenvolvem sistemas, onde o retorno para uma etapa anterior pode acarretar grande custo ao processo de desenvolvimento. Este tipo de modelo, porém, é adequado para um gerenciamento simplificado.
+
+Modelo em cascata.png
+Os principais estágios considerados neste modelo são:
+
+Análise e definição de requisitos;
+Projeto de software;
+Implementação e teste de unidades;
+Integração e teste de sistemas;
+Operação e manutenção.
+Modelo evolutivo
+
+Este modelo tem como objetivo a criação de um modelo inicial de um software (protótipo), submetendo este protótipo para apreciação do usuário e refinando o protótipo de acordo com esta apreciação. Isto é feito de forma contínua até que se obtenha um software considerado apropriado.
+
+Modelo incremental
+
+O modelo incremental combina os dois modelos anteriores: neste modelo, são determinados as funcionalidades mais importantes dosoftware e são definidas quais funcionalidades serão entregues de forma periódica. Inicia-se o desenvolvimento com foco nestas entregas, que podem ser colocadas em operação a partir do momento de entrega, independente do desenvolvimento e entregas posteriores.
+
+Modelo espiral
+
+Neste modelo, o processo de desenvolvimento é representado por uma espiral. O desenvolvimento segue etapas contínuas, porém após a finalização de um conjunto distinto de etapas, executa-se um novo conjunto de etapas sobre o produto anteriormente resolvido.
+
+Spiral model (Boehm, 1988).png
+Ferramentas CASE
+
+Ferramentas Computer-Aided Software Engineering (CASE) é o nome dado ao conjunto de ferramentas de software que visam automatizar e auxiliar no processo de criação de sistemas de software. Desta forma, as ferramentas CASE buscam reduzir o "trabalho braçal" que um Engenheiro de Software pode ter ao desenvolver seus programas. Existem diversas ferramentas de planejamento, edição, prototipação, teste, documentação e etc, tanto pagos como livres que podem auxiliar no desenvolvimento de um software.
+
+Não há um padrão definido para a categorização das ferramentas CASE, mas os seguintes termos são comumente utilizados pelo mercado:
+
+Front End ou Upper CASE: servem como ferramentas de apoio para análise, projeto e implementação.
+Back End ou Lower CASE: servem como ferramentas de apoio à codificação, testes e manutenção.
+I-CASE ou Integrated CASE: descrevem as ferramentas que integram as duas categorias anteriores.
+Norma ISO/IEC 14102
+
+Esta norma trata da seleção e avaliação de ferramentas CASE, estabelecendo processos e atividades a serem aplicadas na avaliação de ferramentas e na escolha da ferramenta mais apropriada dentre as diversas disponíveis. Você pode acessar um preview da norma aqui.
+
+ 
+
+Para citar este artigo
+REVISTABW. Conceitos iniciais de Engenharia de Software.Revista Brasileira de Web: Tecnologia. Disponível em http://www.revistabw.com.br/revistabw/conceitos-iniciais-de-engenharia-de-software/. Criado em: 04/01/2013. Última atualização: 24/07/2015. Visitado em: 27/11/2017

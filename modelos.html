@@ -1,0 +1,428 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<title>Projeto em Bootstrap</title>
+
+	<meta charset="utf-8">
+	<meta name="author" content="Guilherme Basílio">
+	<meta name="viewport" content="width = device - width, initial-sale = 1.0">
+	<meta name="description" content="Projeto da matéria de acessibiliade, Tema: Machine Learning">
+	<meta name="keywords" content="Projeto Site Machine Learning, Conceitos de Machine Learning">
+
+	<link rel="stylesheet" type="text/css" href="bootstrap/dist/css/bootstrap.css">
+  <link rel="stylesheet" type="text/css" href="estilo.css">
+  
+
+ 
+
+	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
+  
+  <script src="http://arquivos.weblibras.com.br/auto/wl-min.js"></script>
+  <script type="text/javascript">
+     var wl = new WebLibras();
+  </script>
+</head>
+
+<body>
+	<!-- Navegação Principal-->
+	<div class="container-fluid">
+		<nav class="navbar navbar-expand-lg navbar-dark bg-dark ">
+		  <a class="navbar-brand" href="#">
+				<img src="imagens/logox2.png" width="280" height="120" class="d-inline-block align-top" alt="Engenharia de Software"></a>
+		  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+		    <span class="navbar-toggler-icon"></span>
+		  </button>
+		  <div class="collapse navbar-collapse" id="navbarNavDropdown">
+		    <ul class="navbar-nav">
+		      <li class="nav-item">
+		        <a class="nav-link" href="index.html">Início<span class="sr-only">(current)</span></a>
+		      </li>
+		      <li class="nav-item">
+		        <a class="nav-link" href="visao.html">Nossa visão</a>
+		      </li>
+		      <li class="nav-item dropdown">
+		        <a class="nav-link dropdown-toggle" href="" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+		          Conceitos Essenciais
+		        </a>
+		        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+		          <a class="dropdown-item" href="conceito.html">Conceito Inicial</a>
+		          <a class="dropdown-item" href="modelos.html">Principais Modelos</a>
+		          <a class="dropdown-item" href="requisitos.html">Requisitos, o que são?</a>
+		          <a class="dropdown-item" href="diagramas.html">Principais Diagramas</a>
+
+		        </div>
+		      </li>
+		        <li class="nav-item">
+		        <a class="nav-link" href="sobre.html">Sobre o Site</a>
+		      </li>
+		       <li class="nav-item">
+		        <a class="nav-link" href="contato.html">Contato</a>
+		      </li>
+		    </ul>
+		    <form class="form-inline">
+			    <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
+			    <button class="btn btn-outline-info my-2 my-sm-0" type="submit">Search</button>
+		  	</form>
+		  </div>
+		</nav>
+	</div>	
+
+	<div>
+		<h1>Processo de Software</h1>
+
+		<p>
+			São um conjunto de atividades que levam ao desenvolvimento do produto Software. Mas, o que é definido aqui?
+			Um processo define:
+			<li>
+				Quem faz, o que faz e quando fazer.
+			</li>
+			<li>
+				Nem sempre diz como fazer
+			</li>
+
+			Estes processos não são padrões, cada empresa ou organização podem desenvolver seus próprios processos!!
+
+		</p>
+
+		<p>
+			Dentro dos Processos exitem:
+
+			<li>
+				Métodos: são os detalhes de como fazer para construir um software, tais como:
+				- Planejamento e estimativa de projeto;
+				- Análise de requisitos de software e de sistemas;
+				- Projeto da estrutura de dados;
+				- Algoritmo de processamento;
+				- Codificação;
+				- Teste;
+				- Manutenção.
+			</li> 
+
+			<li>
+				Ferramentas: são o suporte automatizado aos métodos, tais como:
+				- Ferramentas específicas para sustentar cada um dos métodos;
+				- Quando as ferramentas são integradas, é estabelecido um sistema de suporte aodesenvolvimento de software: CASE -Computer AidedSoftware Engineering.
+			</li>  
+
+			<li>
+				Procedimentos: são o elo entre métodos e ferramentas. Elas definem:
+				- Sequência em que os métodos serão aplicados;
+   				- Produtos que devem ser entregues;
+				- Controles que ajudam assegurar a qualidade e coordenar as alterações;
+				- Marcos de referência que possibilitam administrar o progresso do software.
+			</li> 
+			Eles existem para projetar, construir e manter grandes sistemas de software de maneira profissional.
+		</p>
+
+		<h2>Qualidade do Processo de Software</h2>
+
+		<p>
+			Estes processos devem conter algumas características:
+
+			Inteligibilidade: o processo é definido e inteligível;
+			Visibilidade: o progresso do processo é visível externamente;
+			Suportabilidade: o processo pode ser suportado (apoiado) por ferramentas CASE;
+			Aceitabilidade: o processo é aceito por todos envolvidos nele;
+			Confiabilidade: os erros do processo são descobertos antes que resultem em erros no produto;
+			Robustez: o processo pode continuar a despeito de problemas inesperados;
+			Manutenibilidade: o processo pode evoluir para atender alterações de necessidades organizacionais;
+			Velocidade: quão rápido o sistema pode ser produzido.
+		</p>
+
+		<h1>Modelos de Processo, o que são?</h1>
+
+		<p>
+			Os modelos definem as atividadespara o desenvolvimento do software, especifica os produtos de cada atividade e indica os papéis das pessoas envolvidas. As fases genéricas dos modelos consistem na seguinte imagem:
+		</p>
+
+		<img src="imagens/fases.png">
+
+		<h2>Definição</h2>
+
+		<p> Se trata do que será desenvolvido e, nos detalhes, leva em consideração:</p>
+		<p>
+			- Qual informação vai ser processada;
+			- Funções e desempenhos desejados;
+			- Comportamentos esperados;
+			- Estabelecimento de interfaces;
+			- Quais serão as restrições;
+			- Critérios de validação para definir um sistema bem sucedido;
+			- Quais tarefas serão realizadas;
+			- Engenharia de sistemas;
+			- Planejamento do projeto de software;
+			- Análise de requisitos.
+		</p>
+
+		<h2>Desenvolvimento</h2>
+
+		<p>Consiste em como o software será desenvolvido. Tem os seguintes aspectos:</p>
+		<p>
+			- Como os dados vão ser estruturados;
+			- Como a função vai ser implementada;
+			- Como os detalhes procedimentais vão ser implementados;
+			- Como as interfaces vão ser caracterizadas;
+			- Como o projeto será traduzido em uma linguagem de programação;
+			- Como os testes serão efetuados.
+		</p>
+
+		<h2>Manutenção</h2>
+
+		<p>
+			São as mudanças que ocorrerão depois que o software for liberado para uso operacional. Aplica novamente os os passos das fases de Definição e Desenvolvimento, porém, no contexto de um produto software existente! Consiste nas atividades de:
+		</p>
+
+		<p>
+			- Correção de falhas, erros e defeitos;
+			- Adaptações exigidas na medida que o ambiente do software evolui;
+			- Mudanças por alterações nos requisitos dos clientes.
+		</p>
+
+		<h2>Atividades de Apoio</h2>
+
+		<p>
+			Complementamas fases genéricas e são aplicadas durante toda a engenharia do software. As atividades de apoio consistem em:
+		</p>
+
+		<p>
+			- Controle e Acompanhamento do Projeto de Software
+			- Revisões Técnicas Formais
+			- Garantia de Qualidade de Software
+			- Gerenciamento de Configuração de Software
+			- Preparação e Produção de Documentos
+			- Gerenciamento de Reusabilidade
+			- Medidas
+		</p>
+
+		<p>No entanto, existem vários modelos de processo que podem auxiliar em várias situações. Vejamos os principais deles</p>
+
+		<h2>Modelo Clássico ou Cascata</h2>
+
+		<img src="imagens/modelocascata.png">
+
+		<p>	
+			Vantagens: Documentação rígida (idealmente completa) em cada atividade;
+			Pode ser combinado a outros modelos.
+		</p>
+
+		<p>
+			Desvantagens: Projetos reais raramente seguem um fluxo sequencial;
+			Em geral, é difícil para o clienteestabelecer todos os requisitos de início;
+			Difícil se adequar a mudançasinevitáveis de requisitos;
+			Uma versão executável somente ficará pronta na fase final do projeto.
+		</p>
+
+
+		<h2>Modelos Evolutivos</h2>
+
+		<p>Levando em conta projetos que evoluem ou mudam com o tempo, temos os modelos evolutivos que tratam exatamente isso. Neles temos os seguintes aspectos:</p>
+
+		<p>Pode ser baseados em prototipação, ou seja, após os requisitos, uma parte do projeto é feita como protótipo para apresentar ao cliente uma determinada funcionalidade. Veja a representação abaixo:</p>
+
+		<img src="imagens/prototipo.png">
+
+		<ul>
+			<p>Vantagens:</p>
+			<li>Proporcionam Iterações(versões de produto);</li>
+			<li>Verificação antecipada;</li>
+			<li>Ajuste de Requisitos.</li>
+
+			<p>Desvantagens:</p>
+			<li>Estimativa de Custo;</li>
+			<li>Estimativa de Prazos;</li>
+			<li>Gestão/Controle;</li>
+			<li>Visão de Curto Prazo;</li>
+			<li>Implementação pode ser comprometida: só usa o que funciona no momento.</li>
+			
+		</ul>
+	</div>
+
+	<h3>Modelo Incremental</h3>
+
+	<p>Neste modelo as atividades são intercaladas, possui um feedback do cliente rápido e é baseado em protipação.</p>
+
+	<img src="imagens/modeloincremental.png">
+
+	<ul>
+			<p>Vantagens:</p>
+			<li>Permite trabalhar o entendimento dos requisitos mais perto do cliente;</li>
+			<li>Pode-se começar o sistema pelas partes melhor entendidas;</li>
+			<li>Feedback rápido ao cliente.</li>
+
+			<br>
+
+			<p>Desvantagens:</p>
+			<li>O processo pode não ser muito claro;</li>
+			<li>A gerência do software é complicada: O sistema não é completamente especificado inicialmente;</li>
+			<li>O produto final é frequentemente mal estruturado: A mudança contínua tende a corromper a modularidade do sistema,ou seja, compromete as partes distintas que compõe o todo do software.</li>
+			
+		</ul>
+
+	<h3>Modelo Espiral</h3>
+
+	<p>Exite o modelo espiral de 4 setores e o de 6 setores. Em suma, este modelo possui as melhores característica do Cascata e do Incremental, porém, com um adicional, a análise de riscos. Veja a representação a seguir:</p>
+	<h4>Espiral 4 setores</h4>
+	<img src="imagens/modeloespiral.png">
+	<br>
+	<h4>Espiral 6 setores</h4>
+	<p>Possui o adicional de 2 setores, Comunicação com Cliente e Avaliação do Cliente que servem para que o cliente tenha interação direta no projeto durante as fases.</p>
+	<img src="imagens/modeloespiral6.png">
+
+	<ul>
+			<p>Vantagens:</p>
+			<li>Melhores características do ciclo em Cascata e da Prototipação, adicionando um novo elemento: a Análise de Risco;</li>
+			<li>Capacita o desenvolvedor e o cliente a entender e reagir aos riscos.</li>
+
+			<br>
+
+			<p>Desvantagens:</p>
+			<li>Controle: Exige experiência tanto em desenvolvimento quanto sobre o negócio do cliente devido a análise dos riscos.</li>
+			
+			
+	</ul>
+
+	<h3>Modelos Baseado em Componentes</h3>
+
+	<p>Utiliza tecnologias orientadas a objeto. Quando projetadas e implementadas apropriadamente as classes orientadas a objeto são reutilizáveis em diferentes aplicações e arquiteturas de sistema. O modelo de montagem de componentes incorpora muitas das características do modelo espiral.</p>
+
+	<h4>Modelo Orientado a Reuso</h4>
+
+	<p>Como o próprio nome diz, se refere a utilizar componentes reusáveis. Seus processsos se concentram em encaixar estes componentes uns com os outros. Foi baseado na analogia de componentes eletrônicos em hardwares. Podemos representar seu segmento da seguinte forma:</p>
+
+	<img src="imagens/reuso.png">
+
+	<p>Alinhar componentes aos requisitos:</p>
+	<li>Dada uma especificação, encontrar componentes que a atendam;</li>
+	<li>Se possível, os requisitos são adaptados aos componentes existentes.</li>
+
+	<p>Integração dos Componentes:</p>
+	<li>Se necessário, projeta-se novos componentes reusáveis;</li>
+	<li>Desenvolvimento de novos componentes;</li>
+	<li>Integração de todos os componentes.</li>
+
+	<ul>
+		<p>Vantagens:</p>
+		<li>Reduz a quantidade de software a ser desenvolvido (reuso);</li>
+		<li>Espera-se reduzir os custos e os riscos (Nem sempre é o que acontece);</li>
+		<li>Espera-se uma entrega do produto mais rápida ao cliente.</li>
+
+		<br>
+
+		<p>Desvantagens:</p>
+		<li>Pode-se desenvolver um produto que não atenda aos requisitos do cliente;</li>
+		<li>Pode ser mais difícil evoluir os sistemas: Componentes de terceiros;</li>
+		<li>A gerência de versões doscomponentes pode ser complexa</li>
+		
+		
+	</ul>
+
+	<h3>Modelo Rápido RAD(Rapid Aplication Development)</h3>
+
+	<p>É um modelo sequencial linear que prioriza um ciclo de desenvolvimento relatimente curto. Seu desenvolvimento também é baseado em componentes/módulos, exige que os requisitos estejam bem entendidos e que o projeto esteja bem definido. Podemos representá-lo da seguinte forma:</p>
+
+	<img src="imagens/modelorad.png">
+
+	<ul>
+		<p>Vantagens:</p>
+		<li>Produção rápida;</li>
+		<li>A modularizaçãoefetiva da aplicação;</li>
+		<li>
+			Leva-se em consideração as seguintes questões:
+			<li>Todas as aplicações podem ser modularizadas?</li>
+			<li>Todas as aplicações tem escopo bem definido?</li>
+		</li>
+
+		<br>
+
+		<p>Desvantagens:</p>
+		<li>Exige recursos humanos suficientes para todas as equipes;</li>
+		<li>Integração dos produtos desenvolvidos pelas equipes;</li>
+		
+	</ul>	
+
+	<h3>Técnicas 4GT (Quarta Geração)</h3>
+
+	<p>Aborda o sistema com linguagens de alto nível e o código fonte é gerado automaticamente a partir destas espicificações. Estas técnicas contém: linguagens não-procedimentais, são usadas para consulta de banco de dados, a geração de código é automatizada através de ferramentas, têm  capacidade gráfica de alto nível e trabalha com planilhas eletrônicas. Resume-se em: </p>
+
+	<img src="imagens/4gt.png">
+
+	<p>Recomenda-se usar estas técnicas de 4GT profissionais que tenham o conhecimento dos conceitos básicos bem fundamentados e entendam bem as ferramentas que utilizam.</p>
+
+	<h3>Modelo RUP(Rational Unified Process)</h3>
+
+	<p>Possui o seguinte conjunto de atividades:</p>
+
+	<li>bem definidas;</li>
+	<li>com responsáveis por elas;</li>
+	<li>com artefatos de entrada e saída;</li>
+	<li>com dependências entre as mesmas e ordem de execução;</li>
+	<li>com modelo de ciclo de vida;</li>
+	<li>com descrição sistemática de como devem ser realizadas;</li>
+	<li>utiliza templates no desenvolvimento;</li>
+	<li>utiliza diagramas UML.</li>
+
+	<img src="imagens/modelorup.png">
+
+	<br>
+
+	<img src="imagens/modelorup2.png">
+
+	<br>
+
+	<img src="imagens/modelorup3.png">
+
+
+<footer class="mainfooter" role="contentinfo">
+  <div class="footer-top p-y-2">
+    <div class="container-fluid">
+  <div class="footer-middle">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-3 col-sm-6">
+        <!--Column1-->
+        <div class="footer-pad">
+          <h4>Popular Services</h4>
+          <ul class="list-unstyled">
+            <li><a href="index.html">Topo</a></li>
+            <li><a href="visao.html accesskey="v" tabindex="1"">Nossa visão</a></li>
+            <li><a href="conceito.html" accesskey="c" tabindex="2">Conceitos Essenciais</a></li>
+            <li><a href="modelos.html" accesskey="p" tabindex="3">Principais Modelos</a></li>
+            <li><a href="requisitos.html" accesskey="r" tabindex="4">Requisitos, o que são?</a></li>
+            <li><a href="diagramas.html" accesskey="d" tabindex="5">Principais Diagramas</a></li>
+           
+          </ul>
+        </div>
+      </div>
+      <div class="col-md-3 col-sm-6">
+        <!--Column1-->
+        <div class="footer-pad">
+          <h4>Contato</h4>
+          <ul class="list-unstyled">
+            <li><a href="sobre.html" accesskey="s" tabindex="6">Sobre o site</a></li>
+            <li><a href="contato.html" accesskey="t" tabindex="1">Entre em contato</a></li>
+            <li><a href="#">FAQs</a></li>
+            
+          </ul>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+  </div>
+  <div class="footer-bottom">
+    <div class="container">
+      <div class="row">
+        <div class="col-xs-12">
+          <!--Footer Bottom-->
+          <p class="text-xs-center">&copy; ES-Soluções em Engenharia de SoftwareCopyright 2017 - Cidade de Taquaritinga - SP.  All rights reserved.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+
+
+</body>
+
+</html>
